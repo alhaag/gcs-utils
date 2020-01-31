@@ -1,4 +1,4 @@
-# gcs-utils
+# gcs-utils (Google Cloud Storage)
 
 Utility class for easy integration with Google Cloud Storage API for File Storage and Retrieval.
 
