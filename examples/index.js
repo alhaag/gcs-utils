@@ -59,6 +59,14 @@ async function main() {
   //   // No such object: bucket-name/image.jpeg
   //   console.log(error.message)
   // })
+
+  // GET ASIGNED URL
+  // ---------------------------------------------------------------------------
+  // const [url] = await gcs.getSignedUrl('banner.jpg', 'morsch-exames', 1).catch(error => {
+  //   // No such object: bucket-name/toolbar.jpeg
+  //   console.log(error.message)
+  // })
+  // console.log('result: ', url)
 }
 
 main()
